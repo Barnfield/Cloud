@@ -27,13 +27,15 @@ form{
 	width: 40%;
 	margin-left: 8%;
 	margin-top:10px;
+	border: solid white;
 }
 
 input{
-	border: solid black;
+	border: solid white;
 	font-weight: bold;
 	font-size:15pt;
-	color: rgba(255,255,255,0.9);
+	text-align: center;
+	color: rgba(255,255,255,1);
 	width:100%;
 	border-radius:5px;
 	background-color: rgba(0,0,0,0.6);
