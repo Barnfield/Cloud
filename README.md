@@ -34,7 +34,7 @@
 ## TMUX
 - to use TMUX type "tmux" into the terminal withou the ""
 - Use this like any normal terminal 
-- If you want commands to continue running when you close the shell you will need to detach the session this is done by: ctrl+b followed by hitting **d**etatch 
+- If you want commands to continue running when you close the shell you will need to detach the session this is done by: **ctrl+b** followed by hitting **d**etatch 
 
 	ctrl+b d
 - to rejoin the session after it has been detatched run 
