@@ -15,7 +15,7 @@
 		npm install express 
 		npm install body-parser 
 		npm install path
-
+		npm install ejs
 
 1. <a name="launch"></a>**Launch:** Once the above has been done the server should launch successfully. To launch it you will need to run:
 
