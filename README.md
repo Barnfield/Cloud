@@ -101,5 +101,5 @@
 		into the terminal or look for any cheat sheet online
 		
 		
-	<img src="https://raw.githubusercontent.com/durgaswaroop/Your_First_Lesson_In_Vim/master/pictures/vim_modes_small.png"/>
+	<img src="https://raw.githubusercontent.com/durgaswaroop/Your_First_Lesson_In_Vim/master/pictures/vim_modes_small.png" style="width:60%;"/>
 	
