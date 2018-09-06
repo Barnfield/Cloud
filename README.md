@@ -79,6 +79,7 @@
 		- **yy** to yank (copy) a line to the buffer 
 		- **p** to paste the content of the buffer below the cursor
 			- On top of the inbuilt copying and pasting functions in VIM you can still use your standard machines functions)
+		- **u** undo 
 		- **shift + A** to append to the end of a line (move cursor to end of line and enter insert mode)
 		- **i** to enter insert mode
 		- **x** to delete the char under the cursor
