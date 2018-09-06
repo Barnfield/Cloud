@@ -84,7 +84,7 @@
 		- **shift + A** to append to the end of a line (move cursor to end of line and enter insert mode)
 		- **i** to enter insert mode
 		- **x** to delete the char under the cursor
-		- **:w** to save
+		- **:w** to save to current file (**:w filename** will __save__ as to new file
 		- **:q** to quit (**:wq** saves and quits, **:q!** force quit without saving)
 		- **:5** to jump to line 5
 		- **ciw** commands can be joined. This command combo stands for **C**hange **I**nner **W**ord, 
@@ -93,6 +93,13 @@
 		- **5w** will move the cursor forward 5 words, placing a number before any command will repeat the command n times (e.g. **d3w** will delete the 3 following words
 		- **rg** replace the char under cursor with g
 		- **.** the all powerful repete command. This allow the user to replay the last used sequence of actions
+		
+		- Searching (regex)
+			- **/wheat** will search for the wor wheat (**n** for next **N** for previous)
+			- Searching for closing bracket, put cursor on bracket and hit **%**
+			- Replace/**S**ubsitute **:s/old/new/g** will subsiture old for new globally (the**/g** is optional for global application of the function, without it only the next occurence would be changed)
+		- Running external terminal commands **:!dir** will run the dir command
+			
 	- **insert mode** allows you to insert text (just like a normal editor)
 		- **esc** to exit insert mode and return to command mode
 	- For further help type:
