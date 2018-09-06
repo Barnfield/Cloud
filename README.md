@@ -45,3 +45,31 @@
 - to rejoin the session after it has been detatched run 
 
 		tmux attach
+		
+- Further tmux help
+	- https://tmuxcheatsheet.com/
+	- https://gist.github.com/MohamedAlaa/2961058
+	
+## Editors
+- I have only used **VIM** on the shell, as this is almost always guaranteed to be on a unix system
+- Basic controls:
+	- to start type 
+		
+		vim <filename>
+	- this will open/create a file and start VIM in **command mode**
+	- **command mode** is the default mode in vim, in this mode you can enter common commands such as:
+		- **dd** to cut a line (delete and copy to buffer)
+		- **yy** to yank (copy) a line to the buffer 
+		- **p** to paste the content of the buffer below the cursor
+		- **shift + A** to append to the end of a line (move cursor to end of line and enter insert mode)
+		- **i** to enter insert mode
+		- **x** to delete the char under the cursor
+		- **:w** to save
+		- **:q** to quit (**:wq** saves and quits, **:q!** force quit without saving)
+		- **:5** to jump to line 5
+		- **ciw** commands can be joined. This command combo stands for **C**hange **I**nner **W**ord, 
+		This will delete the whole word under the cursor and enter insert mode. (Very useful when combined with the **.** command)
+		- **.** the all powerful repete command. This allow the user to replay the last used sequence of actions
+	- **insert mode** allows you to insert text (just like a normal editor)
+		- **esc** to exit insert mode and return to command mode
+	
