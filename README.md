@@ -89,6 +89,8 @@
 		- **ciw** commands can be joined. This command combo stands for **C**hange **I**nner **W**ord, 
 		This will delete the whole word under the cursor and enter insert mode. (Very useful when combined with the **.** command)
 		- **$** will jump to end of line, so if you did **d$** this would delete all content between the cursor and the end of the line
+		- **5w** will move the cursor forward 5 words, placing a number before any command will repeat the command n times (e.g. **d3w** will delete the 3 following words
+		- **rg** replace the char under cursor with g
 		- **.** the all powerful repete command. This allow the user to replay the last used sequence of actions
 	- **insert mode** allows you to insert text (just like a normal editor)
 		- **esc** to exit insert mode and return to command mode
