@@ -1,10 +1,11 @@
+# Table of Contents
 - [Initial setup](#init)
 - [Notes](#notes)
 - [Tools](#tools)
 	- [TMUX](#tmux)
 	- [Editors](#editors)
 		- [VIM](#vim)
-
+<hr/>
 
 # <a name="init"></a>Initial setup
 1. (optional) Create a directory on your machine
