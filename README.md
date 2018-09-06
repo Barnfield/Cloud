@@ -55,7 +55,8 @@
 - Basic controls:
 	- to start type 
 		
-		vim <filename>
+			vim filename
+		
 	- this will open/create a file and start VIM in **command mode**
 	- **command mode** is the default mode in vim, in this mode you can enter common commands such as:
 		- **dd** to cut a line (delete and copy to buffer)
