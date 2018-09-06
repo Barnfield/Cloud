@@ -74,7 +74,8 @@
 			vim filename
 		
 	- this will open/create a file and start VIM in **command mode**
-	- **command mode** is the default mode in vim, in this mode you can enter common commands such as:
+	- If ever stuck or losst in vim it ESC (sometimes twice is required). This will take you back to **command mode** (this is the root mode)
+	- **command mode** (AKA normal mode) is the default mode in vim, in this mode you can enter common commands such as:
 		- **dd** to cut a line (delete and copy to buffer)
 		- **yy** to yank (copy) a line to the buffer 
 		- **p** to paste the content of the buffer below the cursor
@@ -98,4 +99,7 @@
 			
 			vimtutor 
 		into the terminal or look for any cheat sheet online
+		
+		
+	<img src="https://raw.githubusercontent.com/durgaswaroop/Your_First_Lesson_In_Vim/master/pictures/vim_modes_small.png"/>
 	
