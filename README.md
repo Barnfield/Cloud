@@ -91,5 +91,8 @@
 		- **.** the all powerful repete command. This allow the user to replay the last used sequence of actions
 	- **insert mode** allows you to insert text (just like a normal editor)
 		- **esc** to exit insert mode and return to command mode
-	- For further help  
+	- For further help type:
+			
+			vimtutor 
+		into the terminal or look for any cheat sheet online
 	
