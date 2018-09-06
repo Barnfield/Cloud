@@ -55,7 +55,12 @@
 - to rejoin the session after it has been detatched run 
 
 		tmux attach
-		
+- Other useful actions:
+	- **ctrl+b** enters command mode
+	- **ctrl+b %** split terminal vertically
+	- **ctrl+b "** split terminal horizontally
+	- **ctrl+b arrowKey** switch which plane your working in
+	- **ctrl+b t** start panes screensaver (a clock)
 - Further tmux help
 	- https://tmuxcheatsheet.com/
 	- https://gist.github.com/MohamedAlaa/2961058
