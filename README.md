@@ -1,4 +1,12 @@
-# Initial setup
+- [Initial setup](#init)
+- [Notes](#notes)
+- [Tools](#tools)
+	- [TMUX](#tmux)
+	- [Editors](#editors)
+		- [VIM](#vim)
+
+
+# <a name="init"></a>Initial setup
 1. (optional) Create a directory on your machine
 1. clone the repo using the command:
 
@@ -32,11 +40,12 @@
 
 
 
-# Notes:
+# <a name="notes"></a>Notes:
 
 - Once the session has ended the server will halt, To keep it running use TMUX
 
-## TMUX
+# <a name="tools"></a>Tools
+## <a name="tmux"></a>TMUX
 - to use TMUX type "tmux" into the terminal withou the ""
 - Use this like any normal terminal 
 - If you want commands to continue running when you close the shell you will need to detach the session this is done by: **ctrl+b** followed by hitting **d**etatch 
@@ -50,7 +59,8 @@
 	- https://tmuxcheatsheet.com/
 	- https://gist.github.com/MohamedAlaa/2961058
 	
-## Editors
+## <a name="editors"></a>Editors
+### <a name="vim"></a>VIM
 - I have only used **VIM** on the shell, as this is almost always guaranteed to be on a unix system
 - Basic controls:
 	- to start type 
