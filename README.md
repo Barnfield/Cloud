@@ -41,7 +41,7 @@
 - Use this like any normal terminal 
 - If you want commands to continue running when you close the shell you will need to detach the session this is done by: **ctrl+b** followed by hitting **d**etatch 
 
-	ctrl+b d
+		ctrl+b d
 - to rejoin the session after it has been detatched run 
 
 		tmux attach
