@@ -23,7 +23,7 @@
 1. Now you have set up the server you may get a warning when starting up the VM. This warning is just to say that you have not given the project a discription. To do this navigate to the folder containing the simpleServer.js file and run and follow the step
 
 		npm init
-
+	Enter a name for the project and then the rest of the questions may be skipped
 
 1. Setting up the port:
 	1. To access the webpage you will need to ensure that the port 3000 has been configured for incoming requests. To do this:
