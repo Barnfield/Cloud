@@ -88,6 +88,8 @@
 		- **:w** to save to current file (**:w filename** will *save as* to new file, Doing thiss in visual mode allows you to save the highlighted section to a new file)
 		- **:q** to quit (**:wq** saves and quits, **:q!** force quit without saving)
 		- **:5** to jump to line 5
+			- entering a number without the : followed by enter will jump 5 lines down 
+			- entering a number without the : followed by - will jump 5 lines up
 		- **ciw** commands can be joined. This command combo stands for **C**hange **I**nner **W**ord, 
 		This will delete the whole word under the cursor and enter insert mode. (Very useful when combined with the **.** command)
 		- **$** will jump to end of line, so if you did **d$** this would delete all content between the cursor and the end of the line
@@ -103,7 +105,8 @@
 			- Searching for closing bracket, put cursor on bracket and hit **%**
 			- Replace/**S**ubsitute **:s/old/new/g** will subsiture old for new globally (the**/g** is optional for global application of the function, without it only the next occurence would be changed)
 		- Running external terminal commands **:!dir** will run the dir command
-		- **:set number** provides line numbers in the editor
+		- **:set number** provides line numbers in the editor (add **!** at end to toggle)
+		- **:set relativenumber** enable relitive line numbers(add **!** at end to toggle)
 	- **insert mode** allows you to insert text (just like a normal editor)
 		- **esc** to exit insert mode and return to command mode
 	- For further help type:
