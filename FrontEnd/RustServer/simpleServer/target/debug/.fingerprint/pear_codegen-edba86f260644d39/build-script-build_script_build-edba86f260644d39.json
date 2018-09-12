@@ -1,0 +1,1 @@
+{"rustc":16435377922956320333,"features":"[]","target":4944179213620976468,"profile":7282077418741342047,"path":10243710159783035657,"deps":[["version_check v0.1.4","version_check",14094719838647804231],["yansi v0.4.0","yansi",16916465083500162019]],"local":[{"Precalculated":"0.0.20"}],"rustflags":[],"edition":"Edition2015"}
