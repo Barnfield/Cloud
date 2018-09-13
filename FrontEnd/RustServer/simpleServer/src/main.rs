@@ -2,12 +2,32 @@
 #![plugin(rocket_codegen)]
 
 extern crate rocket;
+extern crate rocket_contrib;
 
-#[get("/")]
-fn index() -> &'static str {
-    "Hello, world!"
+use std::path::Path;
+use rocket::response::NamedFile;
+
+#[get("/hello")]
+fn hello() -> &'static str {
+	"Hello, world!"
 }
 
+#[get("/")]
+fn index() -> Option<NamedFile> {
+	let path = Path::new("../../../html/index.html");
+	NamedFile::open(&path).ok()
+}
+
+
+#[get("/index.css")]
+fn css() -> Option<NamedFile> {
+	let path = Path::new("../../../html/index.css");//.join(name);
+	NamedFile::open(&path).ok()
+}
+
+
 fn main() {
-    rocket::ignite().mount("/", routes![index]).launch();
+    rocket::ignite().mount("/", routes![index, css]).launch();
+//    rocket::ignite().mount("/index.css", routes![css]);//.launch();
+//    rocket::ignite().mount("/hello", routes![hello]).launch();
 }

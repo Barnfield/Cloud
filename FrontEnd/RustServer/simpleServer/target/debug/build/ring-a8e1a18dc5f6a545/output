@@ -1,0 +1,757 @@
+CARGO: /home/sesa486997/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/cargo
+CARGO_CFG_DEBUG_ASSERTIONS: 
+CARGO_CFG_PROC_MACRO: 
+CARGO_CFG_TARGET_ARCH: x86_64
+CARGO_CFG_TARGET_ENDIAN: little
+CARGO_CFG_TARGET_ENV: gnu
+CARGO_CFG_TARGET_FAMILY: unix
+CARGO_CFG_TARGET_FEATURE: fxsr,mmx,sse,sse2
+CARGO_CFG_TARGET_HAS_ATOMIC: 16,32,64,8,cas,ptr
+CARGO_CFG_TARGET_OS: linux
+CARGO_CFG_TARGET_POINTER_WIDTH: 64
+CARGO_CFG_TARGET_THREAD_LOCAL: 
+CARGO_CFG_TARGET_VENDOR: unknown
+CARGO_CFG_UNIX: 
+CARGO_FEATURE_DEFAULT: 1
+CARGO_FEATURE_DEV_URANDOM_FALLBACK: 1
+CARGO_FEATURE_USE_HEAP: 1
+CARGO_HOME: /home/sesa486997/.cargo
+CARGO_MAKEFLAGS: --jobserver-fds=3,6 -j --jobserver-auth=3,6 -j
+CARGO_MANIFEST_DIR: /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0
+CARGO_MANIFEST_LINKS: ring-asm
+CARGO_PKG_AUTHORS: Brian Smith <brian@briansmith.org>
+CARGO_PKG_DESCRIPTION: Safe, fast, small crypto using Rust.
+CARGO_PKG_HOMEPAGE: 
+CARGO_PKG_NAME: ring
+CARGO_PKG_VERSION: 0.11.0
+CARGO_PKG_VERSION_MAJOR: 0
+CARGO_PKG_VERSION_MINOR: 11
+CARGO_PKG_VERSION_PATCH: 0
+CARGO_PKG_VERSION_PRE: 
+DEBUG: true
+HOME: /home/sesa486997
+HOST: x86_64-unknown-linux-gnu
+HUSHLOGIN: FALSE
+INVOCATION_ID: 7dbd67440d734fc2bc249b4d36aa0434
+JOURNAL_STREAM: 9:20646
+LANG: C.UTF-8
+LD_LIBRARY_PATH: /home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/deps:/home/sesa486997/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib:/home/sesa486997/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib
+LESSCLOSE: /usr/bin/lesspipe %s %s
+LESSOPEN: | /usr/bin/lesspipe %s
+LOGNAME: sesa486997
+LS_COLORS: 
+MAIL: /var/mail/sesa486997
+NUM_JOBS: 1
+OLDPWD: /home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer
+OPT_LEVEL: 0
+OUT_DIR: /home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out
+PATH: /home/sesa486997/.cargo/bin:/home/sesa486997/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PROFILE: debug
+PWD: /home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/src
+RUSTC: rustc
+RUSTDOC: rustdoc
+RUSTUP_HOME: /home/sesa486997/.rustup
+RUSTUP_TOOLCHAIN: nightly-x86_64-unknown-linux-gnu
+RUST_RECURSION_COUNT: 1
+SHELL: /bin/bash
+SHLVL: 1
+SSL_CERT_DIR: /usr/lib/ssl/certs
+SSL_CERT_FILE: /usr/lib/ssl/certs/ca-certificates.crt
+TARGET: x86_64-unknown-linux-gnu
+TERM: vt220
+USER: sesa486997
+XDG_DATA_DIRS: /usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_RUNTIME_DIR: /run/user/1000
+XDG_SESSION_ID: 1
+_: /home/sesa486997/.cargo/bin/cargo
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aes-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/aes-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aesni-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/aesni-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/bsaes-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/bsaes-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/vpaes-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/vpaes-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x86_64-mont-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/x86_64-mont-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x86_64-mont5-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/x86_64-mont5-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/chacha-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/chacha-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ecp_nistz256-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/ecp_nistz256-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/p256-x86_64-asm-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/p256-x86_64-asm-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aesni-gcm-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/aesni-gcm-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ghash-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/ghash-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/poly1305-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/poly1305-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/sha512-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/sha512-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/sha256-x86_64-elf.o" "/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/sha256-x86_64-elf.S"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aes.o" "crypto/aes/aes.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/bn.o" "crypto/bn/bn.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/exponentiation.o" "crypto/bn/exponentiation.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/generic.o" "crypto/bn/generic.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/montgomery.o" "crypto/bn/montgomery.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/montgomery_inv.o" "crypto/bn/montgomery_inv.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/mul.o" "crypto/bn/mul.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/shift.o" "crypto/bn/shift.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/e_aes.o" "crypto/cipher/e_aes.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/crypto.o" "crypto/crypto.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/curve25519.o" "crypto/curve25519/curve25519.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ecp_nistz.o" "crypto/ec/ecp_nistz.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ecp_nistz256.o" "crypto/ec/ecp_nistz256.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/gfp_p256.o" "crypto/ec/gfp_p256.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/gfp_p384.o" "crypto/ec/gfp_p384.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/limbs.o" "crypto/limbs/limbs.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/mem.o" "crypto/mem.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/gcm.o" "crypto/modes/gcm.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/cpu-intel.o" "crypto/cpu-intel.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x25519-x86_64.o" "crypto/curve25519/x25519-x86_64.c"
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x25519-asm-x86_64.o" "crypto/curve25519/asm/x25519-asm-x86_64.S"
+running: "ar" "crs" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/libring-core.a" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aes-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aesni-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/bsaes-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/vpaes-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x86_64-mont-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x86_64-mont5-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/chacha-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ecp_nistz256-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/p256-x86_64-asm-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aesni-gcm-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ghash-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/poly1305-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/sha512-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/sha256-x86_64-elf.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/aes.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/bn.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/exponentiation.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/generic.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/montgomery.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/montgomery_inv.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/mul.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/shift.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/e_aes.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/crypto.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/curve25519.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ecp_nistz.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/ecp_nistz256.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/gfp_p256.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/gfp_p384.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/limbs.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/mem.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/gcm.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/cpu-intel.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x25519-x86_64.o" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/x25519-asm-x86_64.o"
+exit code: 0
+cargo:rustc-link-lib=static=ring-core
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/constant_time_test.o" "crypto/constant_time_test.c"
+running: "ar" "crs" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/libring-test.a" "/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out/constant_time_test.o"
+exit code: 0
+cargo:rustc-link-lib=static=ring-test
+cargo:rustc-link-search=native=/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/build/ring-a8e1a18dc5f6a545/out
