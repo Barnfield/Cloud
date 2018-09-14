@@ -50,7 +50,7 @@
 - This and all the README's in github are written in markdown 
 
 # <a name="databases"></a>Databases
-## <a name="cockroachDB"></a>CockroachDB
+## <a name="cockroachDB"></a>[CockroachDB](https://www.cockroachlabs.com/)
 1. Setup and deploy a database
 1. Create a table (or multiple)
 1. Learn/Identify how to:
@@ -58,8 +58,13 @@
 	1. Write
 	1. Inspect
 	1. Query
-	
-## <a name="cosmos"></a>Cosmos-DB
+### Useful links
+| Link | Rating |
+|------|--------|
+|      |        |
+|      |        |
+|      |        |
+## <a name="cosmos"></a>[Cosmos-DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
 1. Setup and deploy a database
 1. Create a table (or multiple)
 1. Learn/Identify how to:
@@ -67,6 +72,15 @@
 	1. Write
 	1. Inspect
 	1. Query
+### Useful links
+| Link | Rating |
+|------|--------|
+|https://github.com/Azure-Samples/angular-cosmosdb/blob/master/VIDEOS.md|        |
+|      |        |
+|      |        |
+
+ 
+
 	
 # <a name="tools"></a>Tools
 ## <a name="tmux"></a>TMUX
