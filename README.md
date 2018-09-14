@@ -50,7 +50,7 @@
 - This and all the README's in github are written in markdown 
 
 # <a name="databases"></a>Databases
-## <a name="databases"></a>CockroachDB
+## <a name="cockroachDB"></a>CockroachDB
 1. Setup and deploy a database
 1. Create a table (or multiple)
 1. Learn/Identify how to:
@@ -59,7 +59,7 @@
 	1. Inspect
 	1. Query
 	
-## <a name="databases"></a>Cosmos-DB
+## <a name="cosmos"></a>Cosmos-DB
 1. Setup and deploy a database
 1. Create a table (or multiple)
 1. Learn/Identify how to:
