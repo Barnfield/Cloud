@@ -48,6 +48,7 @@
 
 - Once the session has ended the server will halt, To keep it running use TMUX
 - This and all the README's in github are written in markdown 
+- Connecting multiple VLANS ([Click Here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal))
 
 # <a name="databases"></a>Databases
 ## <a name="cockroachDB"></a>[CockroachDB](https://www.cockroachlabs.com/)
