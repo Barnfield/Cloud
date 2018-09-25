@@ -67,6 +67,13 @@
 |      |        |
 ## <a name="cosmos"></a>[Cosmos-DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
 1. Setup and deploy a database
+	1. Go to **Portal**
+	1. click **ADD > Databse > Azure Cosmos DB**
+	1. Ensure (for ease) that the **Resource group** and **Location** is the samme as your VM.
+	1. Set the **API** to SQL
+	1. Set **ID** to any value you like
+	1. click **Next: Networks** and **Create a new network**
+	1. **Review and Create**
 1. Create a table (or multiple)
 1. Learn/Identify how to:
 	1. Read
@@ -76,8 +83,8 @@
 ### Useful links
 | Link | Rating |
 |------|--------|
-|https://github.com/Azure-Samples/angular-cosmosdb/blob/master/VIDEOS.md|        |
-|      |        |
+|https://github.com/Azure-Samples/angular-cosmosdb/blob/master/VIDEOS.md| 8  |
+|https://docs.microsoft.com/en-us/azure/cosmos-db/| 8 |
 |      |        |
 
  
