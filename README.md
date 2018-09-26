@@ -61,7 +61,14 @@
 		1. Copy the extracted files to /usr/local/bin 
 		
 				cp -i cockroach-v2.0.5.linux-amd64/cockroach /usr/local/bin
-	
+	1. [Start the first node:](https://www.cockroachlabs.com/docs/stable/start-a-local-cluster.html)
+		1. use the command
+		
+				cockroach start --insecure --host=localhost
+		1. To create and join new nodess run the above command with the join argument e.g.
+		
+				--join=localhost:26257
+				
 1. Create a table (or multiple)
 1. Learn/Identify how to:
 	1. Read
