@@ -155,6 +155,8 @@
 		- Running external terminal commands **:!dir** will run the dir command
 		- **:set number** provides line numbers in the editor (add **!** at end to toggle)
 		- **:set relativenumber** enable relitive line numbers(add **!** at end to toggle)
+		- For loop
+			- :for i in range(1,10) | put ='192.168.0.'.i | endfor
 	- **insert mode** allows you to insert text (just like a normal editor)
 		- **esc** to exit insert mode and return to command mode
 	- For further help type:
