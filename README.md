@@ -53,6 +53,15 @@
 # <a name="databases"></a>Databases
 ## <a name="cockroachDB"></a>[CockroachDB](https://www.cockroachlabs.com/)
 1. Setup and deploy a database
+	1. [Install:](https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html)
+		1. get the tar-gz file and extract it
+		
+			wget -qO- https://binaries.cockroachdb.com/cockroach-v2.0.5.linux-amd64.tgz | tar  xvz
+			
+		1. Copy the extracted files to /usr/local/bin 
+		
+			cp -i cockroach-v2.0.5.linux-amd64/cockroach /usr/local/bin
+	
 1. Create a table (or multiple)
 1. Learn/Identify how to:
 	1. Read
