@@ -70,11 +70,26 @@
 				--join=localhost:26257
 				
 1. Create a table (or multiple)
+	1. In order to use the Database using the SQL commands enter:
+			
+			cockroach sql --insecure
+	
+	1. This will start the inbuild SQL interpreter, from this you can use normal SQL commands to create databases, tables, querys, ...
+	1. In order to interact with the database safely with a program, Cockroach offers **ORM**'s or **Driver**'s e.g.
+		1. [NodeJS](https://www.cockroachlabs.com/docs/stable/build-a-nodejs-app-with-cockroachdb-sequelize.html)
+		1. [Python](https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb.html)
+		1. [Rust](https://www.cockroachlabs.com/docs/stable/build-a-rust-app-with-cockroachdb.html)
+		1. [More/Others](https://www.cockroachlabs.com/docs/stable/build-an-app-with-cockroachdb.html)
 1. Learn/Identify how to:
 	1. Read
 	1. Write
 	1. Inspect
 	1. Query
+1. Extras:
+	1. To monitor the cluster you can access the Admin-UI by going to (change localhost to address if needed):
+	
+			http://localhost:8080
+	
 ### Useful links
 | Link | Rating |
 |------|--------|
