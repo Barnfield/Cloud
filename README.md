@@ -107,7 +107,7 @@
 		1. click **Next: Networks** and **Create a new network**
 		1. **Review and Create**
 	1. Link to VM
-		1. TODO
+		1. <h1>TODO: Cosmos research on hold/canceled due to lack of useability when compared to above alternative</h1>
 1. Create a table (or multiple)
 1. Learn/Identify how to:
 	1. Read
