@@ -1,0 +1,120 @@
+I181008 12:53:56.220528 1 util/log/clog.go:1134  [config] file created at: 2018/10/08 12:53:56
+I181008 12:53:56.220528 1 util/log/clog.go:1134  [config] running on machine: cloudy
+I181008 12:53:56.220528 1 util/log/clog.go:1134  [config] binary: CockroachDB CCL v2.0.5 (x86_64-unknown-linux-gnu, built 2018/08/13 17:59:42, go1.10)
+I181008 12:53:56.220528 1 util/log/clog.go:1134  [config] arguments: [cockroach start --insecure --host=localhost]
+I181008 12:53:56.220528 1 util/log/clog.go:1134  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+W181008 12:53:56.220527 1 cli/start.go:909  RUNNING IN INSECURE MODE!
+
+- Your cluster is open for any client that can access localhost.
+- Any user, even root, can log in without providing a password.
+- Any user, connecting as root, can read or write any data in your cluster.
+- There is no network encryption nor authentication, and thus no confidentiality.
+
+Check out how to secure your cluster: https://www.cockroachlabs.com/docs/v2.0/secure-a-cluster.html
+I181008 12:53:56.407901 1 server/config.go:330  available memory from cgroups (8.0 EiB) exceeds system memory 922 MiB, using system memory
+W181008 12:53:56.407972 1 cli/start.go:812  Using the default setting for --cache (128 MiB).
+  A significantly larger value is usually needed for good performance.
+  If you have a dedicated server a reasonable setting is --cache=.25 (230 MiB).
+I181008 12:53:56.408128 1 server/config.go:330  available memory from cgroups (8.0 EiB) exceeds system memory 922 MiB, using system memory
+W181008 12:53:56.408145 1 cli/start.go:825  Using the default setting for --max-sql-memory (128 MiB).
+  A significantly larger value is usually needed in production.
+  If you have a dedicated server a reasonable setting is --max-sql-memory=.25 (230 MiB).
+I181008 12:53:56.408158 1 cli/start.go:923  CockroachDB CCL v2.0.5 (x86_64-unknown-linux-gnu, built 2018/08/13 17:59:42, go1.10)
+I181008 12:53:56.508885 1 server/config.go:330  available memory from cgroups (8.0 EiB) exceeds system memory 922 MiB, using system memory
+I181008 12:53:56.508905 1 server/config.go:430  system total memory: 922 MiB
+I181008 12:53:56.508951 1 server/config.go:432  server configuration:
+max offset             500000000
+cache size             128 MiB
+SQL memory pool size   128 MiB
+scan interval          10m0s
+scan max idle time     200ms
+event log enabled      true
+I181008 12:53:56.508971 1 cli/start.go:796  process identity: uid 1000 euid 1000 gid 1000 egid 1000
+I181008 12:53:56.508979 1 cli/start.go:461  starting cockroach node
+I181008 12:53:56.509582 14 storage/engine/rocksdb.go:553  opening rocksdb instance at "/home/sesa486997/Cloud/BackEnd/cockroach-data/cockroach-temp804308916"
+I181008 12:53:56.663491 14 server/server.go:734  [n?] monitoring forward clock jumps based on server.clock.forward_jump_check_enabled
+I181008 12:53:56.666102 14 storage/engine/rocksdb.go:553  opening rocksdb instance at "/home/sesa486997/Cloud/BackEnd/cockroach-data"
+I181008 12:53:56.756438 14 server/config.go:538  [n?] 1 storage engine initialized
+I181008 12:53:56.756451 14 server/config.go:541  [n?] RocksDB cache size: 128 MiB
+I181008 12:53:56.756471 14 server/config.go:541  [n?] store 0: RocksDB, max size 0 B, max open file limit 10000
+I181008 12:53:56.760686 14 server/server.go:784  [n?] Sleeping till wall time 1539003236760663562 to catches up to 1539003237163447841 to ensure monotonicity. Delta: 402.784279ms
+W181008 12:53:57.311166 14 storage/replica_range_lease.go:463  can't determine lease status due to node liveness error: node not in the liveness table
+I181008 12:53:57.311239 14 storage/store.go:1371  [n1,s1] [n1,s1]: failed initial metrics computation: [n1,s1]: system config not yet available
+I181008 12:53:57.311492 14 server/node.go:509  [n1] initialized store [n1,s1]: disk (capacity=29 GiB, available=24 GiB, used=179 KiB, logicalBytes=436 KiB), ranges=20, leases=0, writes=0.00, bytesPerReplica={p10=0.00 p25=0.00 p50=94.00 p75=3342.00 p90=31690.00 pMax=378146.00}, writesPerReplica={p10=0.00 p25=0.00 p50=0.00 p75=0.00 p90=0.00 pMax=0.00}
+I181008 12:53:57.311525 14 server/node.go:347  [n1] node ID 1 initialized
+I181008 12:53:57.311668 14 gossip/gossip.go:333  [n1] NodeDescriptor set to node_id:1 address:<network_field:"tcp" address_field:"localhost:26257" > attrs:<> locality:<> ServerVersion:<major_val:2 minor_val:0 patch:0 unstable:0 > 
+I181008 12:53:57.311795 14 storage/stores.go:331  [n1] read 0 node addresses from persistent storage
+I181008 12:53:57.311971 14 server/node.go:659  [n1] connecting to gossip network to verify cluster ID...
+W181008 12:53:57.317037 77 storage/store.go:1463  [n1,s1,r7/1:/Table/{SystemCon…-11}] could not gossip system config: [NotLeaseHolderError] r7: replica (n1,s1):1 not lease holder; lease holder unknown
+I181008 12:53:57.317389 14 server/node.go:684  [n1] node connected via gossip and verified as part of cluster "3c0dbb02-efd3-4d2b-a4ea-ccb1a3686742"
+I181008 12:53:57.317412 14 server/node.go:443  [n1] node=1: started with [<no-attributes>=/home/sesa486997/Cloud/BackEnd/cockroach-data] engine(s) and attributes []
+I181008 12:53:57.317498 14 server/server.go:1430  [n1] starting http server at localhost:8080
+I181008 12:53:57.317510 14 server/server.go:1431  [n1] starting grpc/postgres server at localhost:26257
+I181008 12:53:57.317648 14 server/server.go:1432  [n1] advertising CockroachDB node at localhost:26257
+W181008 12:53:57.317673 14 sql/jobs/registry.go:286  [n1] unable to get node liveness: node not in the liveness table
+I181008 12:53:57.382044 107 storage/node_liveness.go:438  [n1,hb] heartbeat failed on epoch increment; retrying
+I181008 12:53:57.395257 66 storage/replica_proposal.go:201  [n1,s1,r7/1:/Table/{SystemCon…-11}] new range lease repl=(n1,s1):1 seq=6 start=1539003237.307844145,0 epo=2 pro=1539003237.361699170,0 following repl=(n1,s1):1 seq=5 start=1539003223.873073462,0 epo=2 pro=1539003224.303856418,0
+I181008 12:53:57.404415 68 storage/replica_proposal.go:201  [n1,s1,r5/1:/System/ts{d-e}] new range lease repl=(n1,s1):1 seq=6 start=1539003237.307219449,0 epo=2 pro=1539003237.369314417,0 following repl=(n1,s1):1 seq=5 start=1539003223.872466866,0 epo=2 pro=1539003224.965970841,0
+I181008 12:53:57.406235 67 storage/replica_proposal.go:201  [n1,s1,r4/1:/System/{NodeLive…-tsd}] new range lease repl=(n1,s1):1 seq=6 start=1539003237.307030551,0 epo=2 pro=1539003237.364170252,0 following repl=(n1,s1):1 seq=5 start=1539003223.871993870,0 epo=2 pro=1539003224.150629800,0
+I181008 12:53:57.407526 14 server/server.go:1512  [n1] done ensuring all necessary migrations have run
+I181008 12:53:57.407540 14 server/server.go:1515  [n1] serving sql connections
+I181008 12:53:57.407693 14 cli/start.go:595  [config] clusterID: 3c0dbb02-efd3-4d2b-a4ea-ccb1a3686742
+I181008 12:53:57.407732 14 cli/start.go:603  node startup completed:
+CockroachDB node starting at 2018-10-08 12:53:57.40755735 +0000 UTC (took 1.2s)
+build:               CCL v2.0.5 @ 2018/08/13 17:59:42 (go1.10)
+admin:               http://localhost:8080
+sql:                 postgresql://root@localhost:26257?sslmode=disable
+logs:                /home/sesa486997/Cloud/BackEnd/cockroach-data/logs
+temp dir:            /home/sesa486997/Cloud/BackEnd/cockroach-data/cockroach-temp804308916
+external I/O path:   /home/sesa486997/Cloud/BackEnd/cockroach-data/extern
+store[0]:            path=/home/sesa486997/Cloud/BackEnd/cockroach-data
+status:              restarted pre-existing node
+clusterID:           3c0dbb02-efd3-4d2b-a4ea-ccb1a3686742
+nodeID:              1
+I181008 12:53:57.517221 64 storage/replica_proposal.go:201  [n1,s1,r9/1:/Table/1{2-3}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.308324642,0 epo=2 pro=1539003237.440908017,0 following repl=(n1,s1):1 seq=4 start=1539003223.873499859,0 epo=2 pro=1539003224.304829711,0
+I181008 12:53:57.699228 66 storage/replica_proposal.go:201  [n1,s1,r12/1:/Table/1{5-6}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.309034837,0 epo=2 pro=1539003237.520701261,0 following repl=(n1,s1):1 seq=4 start=1539003223.874030755,0 epo=2 pro=1539003227.572082365,0
+I181008 12:53:57.759533 67 storage/replica_proposal.go:201  [n1,s1,r9/1:/Table/1{2-3}] new range lease repl=(n1,s1):1 seq=6 start=1539003237.308324642,0 epo=3 pro=1539003237.660532286,0 following repl=(n1,s1):1 seq=5 start=1539003237.308324642,0 epo=2 pro=1539003237.440908017,0
+I181008 12:53:57.796743 142 sql/event_log.go:121  [n1] Event: "node_restart", target: 1, info: {Descriptor:{NodeID:1 Address:{NetworkField:tcp AddressField:localhost:26257} Attrs: Locality: ServerVersion:2.0} ClusterID:3c0dbb02-efd3-4d2b-a4ea-ccb1a3686742 StartedAt:1539003237317392979 LastUp:1539003232979115293}
+I181008 12:53:57.809025 143 server/updates.go:233  [n1] A new version is available: 2.0.6, details: https://www.cockroachlabs.com/docs/releases/v2.0.6.html
+I181008 12:53:57.816086 67 storage/replica_proposal.go:201  [n1,s1,r12/1:/Table/1{5-6}] new range lease repl=(n1,s1):1 seq=6 start=1539003237.309034837,0 epo=3 pro=1539003237.755092727,0 following repl=(n1,s1):1 seq=5 start=1539003237.309034837,0 epo=2 pro=1539003237.520701261,0
+I181008 12:53:57.860499 71 storage/replica_proposal.go:201  [n1,s1,r7/1:/Table/{SystemCon…-11}] new range lease repl=(n1,s1):1 seq=7 start=1539003237.307844145,0 epo=3 pro=1539003237.813684819,0 following repl=(n1,s1):1 seq=6 start=1539003237.307844145,0 epo=2 pro=1539003237.361699170,0
+I181008 12:53:57.874355 66 storage/replica_proposal.go:201  [n1,s1,r6/1:/{System/tse-Table/System…}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.307639347,0 epo=3 pro=1539003237.816392400,0 following repl=(n1,s1):1 seq=4 start=1539003223.872814264,0 epo=2 pro=1539003225.968422066,0
+I181008 12:53:58.188843 69 storage/replica_proposal.go:201  [n1,s1,r16/1:/Table/{19-20}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.309783232,0 epo=3 pro=1539003238.156943427,0 following repl=(n1,s1):1 seq=4 start=1539003223.874825549,0 epo=2 pro=1539003227.973026342,0
+I181008 12:53:58.583252 70 storage/replica_proposal.go:201  [n1,s1,r10/1:/Table/1{3-4}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.308504641,0 epo=3 pro=1539003238.557725936,0 following repl=(n1,s1):1 seq=4 start=1539003223.873683858,0 epo=2 pro=1539003225.767991181,0
+I181008 12:53:59.009756 70 storage/replica_proposal.go:201  [n1,s1,r13/1:/Table/1{6-7}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.309211636,0 epo=3 pro=1539003238.958715143,0 following repl=(n1,s1):1 seq=4 start=1539003223.874199854,0 epo=2 pro=1539003226.569884126,0
+I181008 12:53:59.183284 71 storage/replica_proposal.go:201  [n1,s1,r19/1:/Table/2{2-3}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.310412627,0 epo=3 pro=1539003239.159127048,0 following repl=(n1,s1):1 seq=4 start=1539003223.875412145,0 epo=2 pro=1539003225.366969811,0
+I181008 12:53:59.383494 68 storage/replica_proposal.go:201  [n1,s1,r4/1:/System/{NodeLive…-tsd}] new range lease repl=(n1,s1):1 seq=7 start=1539003237.307030551,0 epo=3 pro=1539003239.359452955,0 following repl=(n1,s1):1 seq=6 start=1539003237.307030551,0 epo=2 pro=1539003237.364170252,0
+I181008 12:53:59.593620 70 storage/replica_proposal.go:201  [n1,s1,r17/1:/Table/2{0-1}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.309996730,0 epo=3 pro=1539003239.559889860,0 following repl=(n1,s1):1 seq=4 start=1539003223.875012448,0 epo=2 pro=1539003227.171182488,0
+I181008 12:53:59.788190 65 storage/replica_proposal.go:201  [n1,s1,r18/1:/Table/2{1-2}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.310213129,0 epo=3 pro=1539003239.760286266,0 following repl=(n1,s1):1 seq=4 start=1539003223.875239847,0 epo=2 pro=1539003224.653097251,0
+I181008 12:54:00.237654 65 storage/replica_proposal.go:201  [n1,s1,r15/1:/Table/1{8-9}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.309587733,0 epo=3 pro=1539003240.161127878,0 following repl=(n1,s1):1 seq=4 start=1539003223.874548151,0 epo=2 pro=1539003227.772485454,0
+I181008 12:54:00.383582 64 storage/replica_proposal.go:201  [n1,s1,r11/1:/Table/1{4-5}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.308786339,0 epo=3 pro=1539003240.361520685,0 following repl=(n1,s1):1 seq=4 start=1539003223.873848156,0 epo=2 pro=1539003225.567487196,0
+I181008 12:54:00.797536 71 storage/replica_proposal.go:201  [n1,s1,r14/1:/Table/1{7-8}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.309372934,0 epo=3 pro=1539003240.762678097,0 following repl=(n1,s1):1 seq=4 start=1539003223.874364953,0 epo=2 pro=1539003227.371719576,0
+I181008 12:54:00.994650 69 storage/replica_proposal.go:201  [n1,s1,r8/1:/Table/1{1-2}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.308100843,0 epo=3 pro=1539003240.963048104,0 following repl=(n1,s1):1 seq=4 start=1539003223.873299160,0 epo=2 pro=1539003226.369465839,0
+I181008 12:54:01.184718 68 storage/replica_proposal.go:201  [n1,s1,r5/1:/System/ts{d-e}] new range lease repl=(n1,s1):1 seq=7 start=1539003237.307219449,0 epo=3 pro=1539003241.163456512,0 following repl=(n1,s1):1 seq=6 start=1539003237.307219449,0 epo=2 pro=1539003237.369314417,0
+I181008 12:54:01.403107 71 storage/replica_proposal.go:201  [n1,s1,r20/1:/{Table/23-Max}] new range lease repl=(n1,s1):1 seq=5 start=1539003237.310642926,0 epo=3 pro=1539003241.366510203,0 following repl=(n1,s1):1 seq=4 start=1539003223.875603044,0 epo=2 pro=1539003225.166461926,0
+I181008 12:54:07.318732 94 storage/store.go:4523  [n1,s1] sstables (read amplification = 1):
+6 [ 121K 1 ]: 121K
+I181008 12:54:07.318858 94 storage/store.go:4524  [n1,s1] 
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      2.4         0         1    0.014       0      0
+  L6      1/0   120.80 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.8      2.5      2.0         0         1    0.058    2505    582
+ Sum      1/0   120.80 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   4.6      2.0      2.1         0         2    0.036    2505    582
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   4.6      2.0      2.1         0         2    0.036    2505    582
+Uptime(secs): 10.7 total, 10.7 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.01 MB/s write, 0.00 GB read, 0.01 MB/s read, 0.1 seconds
+Interval compaction: 0.00 GB write, 0.01 MB/s write, 0.00 GB read, 0.01 MB/s read, 0.1 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+estimated_pending_compaction_bytes: 0 B
+I181008 12:54:07.320964 98 server/status/runtime.go:219  [n1] runtime stats: 89 MiB RSS, 93 goroutines, 89 MiB/320 KiB/97 MiB GO alloc/idle/total, 13 MiB/15 MiB CGO alloc/total, 0.00cgo/sec, 0.00/0.00 %(u/s)time, 0.00 %gc (8x)
+I181008 12:54:15.358970 1 cli/start.go:655  received signal 'interrupt'
+I181008 12:54:15.414558 1 cli/start.go:720  initiating graceful shutdown of server
+E181008 12:54:17.042387 1 cli/error.go:112  received signal 'interrupt' during shutdown, initiating hard shutdown - node may take longer to restart & clients may need to wait for leases to expire
+Error: received signal 'interrupt' during shutdown, initiating hard shutdown - node may take longer to restart & clients may need to wait for leases to expire

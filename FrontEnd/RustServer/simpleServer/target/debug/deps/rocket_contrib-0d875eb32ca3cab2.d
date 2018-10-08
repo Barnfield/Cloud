@@ -1,0 +1,9 @@
+/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/deps/librocket_contrib-0d875eb32ca3cab2.rlib: /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/lib.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/mod.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/handlebars_templates.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/engine.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/context.rs
+
+/home/sesa486997/Cloud/FrontEnd/RustServer/simpleServer/target/debug/deps/rocket_contrib-0d875eb32ca3cab2.d: /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/lib.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/mod.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/handlebars_templates.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/engine.rs /home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/context.rs
+
+/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/lib.rs:
+/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/mod.rs:
+/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/handlebars_templates.rs:
+/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/engine.rs:
+/home/sesa486997/.cargo/registry/src/github.com-1ecc6299db9ec823/rocket_contrib-0.3.16/src/templates/context.rs:
