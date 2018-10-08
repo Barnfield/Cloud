@@ -174,7 +174,7 @@
 		- **$** will jump to end of line, so if you did **d$** this would delete all content between the cursor and the end of the line
 		- **5w** will move the cursor forward 5 words, placing a number before any command will repeat the command n times (e.g. **d3w** will delete the 3 following words
 		- **rg** replace the char under cursor with g
-		- **.** the all powerful repete command. This allow the user to replay the last used sequence of actions
+		- **.** the all powerful repeat command. This allow the user to replay the last used sequence of actions
 		- **:r filename** will write the content of filename to the cursors location (**r**etrive
 			- **:r !dir** will insert the output of the dir command
 		- **R** Replace mode (enter insert mode but replace chars with new input)
