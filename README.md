@@ -1,6 +1,9 @@
 # Table of Contents
 - [Initial setup](#init)
 - [Notes](#notes)
+- [Databases](#databases)
+	- [CockroachDB](#cockroachDB)
+	- [Cosmos-DB](#cosmos)
 - [Tools](#tools)
 	- [TMUX](#tmux)
 	- [Editors](#editors)
@@ -44,7 +47,83 @@
 # <a name="notes"></a>Notes:
 
 - Once the session has ended the server will halt, To keep it running use TMUX
+- This and all the README's in github are written in markdown 
+- Connecting multiple VLANS ([Click Here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal))
 
+# <a name="databases"></a>Databases
+## <a name="cockroachDB"></a>[CockroachDB](https://www.cockroachlabs.com/)
+1. Setup and deploy a database
+	1. [Install:](https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html)
+		1. get the tar-gz file and extract it
+		
+				wget -qO- https://binaries.cockroachdb.com/cockroach-v2.0.5.linux-amd64.tgz | tar  xvz
+			
+		1. Copy the extracted files to /usr/local/bin 
+		
+				cp -i cockroach-v2.0.5.linux-amd64/cockroach /usr/local/bin
+	1. [Start the first node:](https://www.cockroachlabs.com/docs/stable/start-a-local-cluster.html)
+		1. use the command
+		
+				cockroach start --insecure --host=localhost
+		1. To create and join new nodess run the above command with the join argument e.g.
+		
+				--join=localhost:26257
+				
+1. Create a table (or multiple)
+	1. In order to use the Database using the SQL commands enter:
+			
+			cockroach sql --insecure
+	
+	1. This will start the inbuild SQL interpreter, from this you can use normal SQL commands to create databases, tables, querys, ...
+	1. In order to interact with the database safely with a program, Cockroach offers **ORM**'s or **Driver**'s e.g.
+		1. [NodeJS](https://www.cockroachlabs.com/docs/stable/build-a-nodejs-app-with-cockroachdb-sequelize.html)
+		1. [Python](https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb.html)
+		1. [Rust](https://www.cockroachlabs.com/docs/stable/build-a-rust-app-with-cockroachdb.html)
+		1. [More/Others](https://www.cockroachlabs.com/docs/stable/build-an-app-with-cockroachdb.html)
+1. Learn/Identify how to:
+	1. Read
+	1. Write
+	1. Inspect
+	1. Query
+1. Extras:
+	1. To monitor the cluster you can access the Admin-UI by going to (change localhost to address if needed):
+	
+			http://localhost:8080
+	
+### Useful links
+| Link | Rating |
+|------|--------|
+|      |        |
+|      |        |
+|      |        |
+## <a name="cosmos"></a>[Cosmos-DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
+1. Setup and deploy a database
+	1. Setup and Deploy
+		1. Go to **Portal**
+		1. click **ADD > Databse > Azure Cosmos DB**
+		1. Ensure (for ease) that the **Resource group** and **Location** is the samme as your VM.
+		1. Set the **API** to SQL
+		1. Set **ID** to any value you like
+		1. click **Next: Networks** and **Create a new network**
+		1. **Review and Create**
+	1. Link to VM
+		1. **TODO: Cosmos research on hold/canceled due to lack of useability when compared to above alternative**
+1. Create a table (or multiple)
+1. Learn/Identify how to:
+	1. Read
+	1. Write
+	1. Inspect
+	1. Query
+### Useful links
+| Link | Rating |
+|------|--------|
+|https://github.com/Azure-Samples/angular-cosmosdb/blob/master/VIDEOS.md| 8  |
+|https://docs.microsoft.com/en-us/azure/cosmos-db/| 8 |
+|      |        |
+
+ 
+
+	
 # <a name="tools"></a>Tools
 ## <a name="tmux"></a>TMUX
 - to use TMUX type "tmux" into the terminal withou the ""
@@ -95,7 +174,7 @@
 		- **$** will jump to end of line, so if you did **d$** this would delete all content between the cursor and the end of the line
 		- **5w** will move the cursor forward 5 words, placing a number before any command will repeat the command n times (e.g. **d3w** will delete the 3 following words
 		- **rg** replace the char under cursor with g
-		- **.** the all powerful repete command. This allow the user to replay the last used sequence of actions
+		- **.** the all powerful repeat command. This allow the user to replay the last used sequence of actions
 		- **:r filename** will write the content of filename to the cursors location (**r**etrive
 			- **:r !dir** will insert the output of the dir command
 		- **R** Replace mode (enter insert mode but replace chars with new input)
@@ -107,6 +186,8 @@
 		- Running external terminal commands **:!dir** will run the dir command
 		- **:set number** provides line numbers in the editor (add **!** at end to toggle)
 		- **:set relativenumber** enable relitive line numbers(add **!** at end to toggle)
+		- For loop
+			- **:for i in range(1,10) | put ='192.168.0.'.i | endfor** will loop from 1-10 (inclusive) writing these IP addresses
 	- **insert mode** allows you to insert text (just like a normal editor)
 		- **esc** to exit insert mode and return to command mode
 	- For further help type:
