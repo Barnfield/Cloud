@@ -1,0 +1,1 @@
+# This folder is where documents will be stored (kept on root for now, will be moved to its own server, as once they are processed a restful process can retreive them from the external lower cost server)
