@@ -4,7 +4,6 @@ CREATE DATABASE IF NOT EXISTS Schneider_search
 CREATE  TABLE IF NOT EXISTS Schneider_search.document (
   id INT NOT NULL,
   file_path VARCHAR(100) NOT NULL ,
-  tags VARCHAR(45),
   PRIMARY KEY (id) );
 
 -- The below table can have procedures used to calc
@@ -15,5 +14,12 @@ CREATE  TABLE IF NOT EXISTS Schneider_search.time_spent (
   doc_id INT NOT NULL ,
   start_time TIME,
   end_time TIME,
+  FOREIGN KEY (doc_id) REFERENCES document(id),
+  PRIMARY KEY (id) );
+
+CREATE  TABLE IF NOT EXISTS Schneider_search.tags (
+  id INT NOT NULL  ,
+  doc_id INT NOT NULL ,
+  tag TEXT NOT NULL ,
   FOREIGN KEY (doc_id) REFERENCES document(id),
   PRIMARY KEY (id) );
