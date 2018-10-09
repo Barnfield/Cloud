@@ -76,6 +76,9 @@
 	
 	1. This will start the inbuild SQL interpreter, from this you can use normal SQL commands to create databases, tables, querys, ...
 		1. **NOTE:** The SQL terminal is not a true SQL terminal. It cannot create tables that use auto-increment (as this is expensive across distributed systems
+		1. **SQL file** I have put a .sql file in the folder *BackEnd > SQL*. This file will create a database and 2 tables, to run enter the sql shell and use the command:
+			
+			source <PATH>/CreateDBandTable.sql
 	1. In order to interact with the database safely with a program, Cockroach offers **ORM**'s or **Driver**'s e.g.
 		1. [NodeJS](https://www.cockroachlabs.com/docs/stable/build-a-nodejs-app-with-cockroachdb-sequelize.html)
 		1. [Python](https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb.html)
