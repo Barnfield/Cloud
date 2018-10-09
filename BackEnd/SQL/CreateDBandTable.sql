@@ -1,3 +1,4 @@
+CREATE DATABASE IF NOT EXISTS Schneider_search
 -- auto_increment does not exist (yet) as it is expensive in distributed systems
 -- UNSIGNED is not included (should be implimente by program writing to DB)
 CREATE  TABLE IF NOT EXISTS Schneider_search.document (
