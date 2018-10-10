@@ -40,6 +40,6 @@ const pool = new pg.Pool()
     return res
   }
 ///////////////END DB QUERY////////////////////////
-var resp = await getDocIdFromTag("testTag")
+var resp = new Promise( getDocIdFromTag("testTag") )
 console.log(resp)
 
