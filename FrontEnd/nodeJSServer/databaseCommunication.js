@@ -33,13 +33,13 @@ const pool = new pg.Pool()
 	  })
   }
   
-  async function getDocIdFromTag(tag){
+  var getDoc = async function getDocIdFromTag(tag){
     const res = await pool.query('SELECT * FROM schneider_search.tags')
     await pool.end()
     //console.log(res)
-    return res
+    callback( res )
   }
 ///////////////END DB QUERY////////////////////////
-var resp = new Promise( getDocIdFromTag("testTag") )
+var resp = getDocIdFromTag("testTag") 
 console.log(resp)
 
