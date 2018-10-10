@@ -46,5 +46,5 @@ resp
 	.then(function whenOk(response) {
 	    console.log(response)
 	    return response
-	  }))
+	  })
 
