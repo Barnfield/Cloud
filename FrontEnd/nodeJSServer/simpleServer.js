@@ -32,7 +32,7 @@ app.post('/myaction', function(req, res) {
 	var name = req.body.firstname;
 	const resp = getDocIdFromTag(name) 
 	resp
-		.then(function whenOk(response, res) {
+		.then(function whenOk(response) {
 		    console.log(response.rows[0].doc_id)
 	
 		res.render(__dirname + '/../html/displaySearch.html',{name:name});
