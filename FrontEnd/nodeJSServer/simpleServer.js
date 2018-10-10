@@ -16,6 +16,7 @@ const pool = new pg.Pool()
 function getDocIdFromTag(tag){
 	return new Promise(async function(resolve,reject){
 		const results = await pool.query('SELECT * FROM schneider_search.tags')
+		console.log(results)
 		await pool.end()
 // 		if(len(results.rows) > 0){
 			resolve( results )
@@ -42,10 +43,10 @@ app.post('/myaction', function(req, res) {
 			name = name +"_ID = " +  response.rows[0].doc_id
 			gRes.render(__dirname + '/../html/displaySearch.html',{name:name});
 		})
-// 		.catch(function notOk(response){
-// 			name = response + name
-// 			gRes.render(__dirname + '/../html/displaySearch.html',{name:name});
-// 		})
+		.catch(function notOk(response){
+			name = response + name
+			gRes.render(__dirname + '/../html/displaySearch.html',{name:name});
+		})
   	console.log(name + ' said Hi');
 });
 
