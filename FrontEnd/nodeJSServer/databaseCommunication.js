@@ -38,7 +38,7 @@ const pool = new pg.Pool()
 		const res = await pool.query('SELECT * FROM schneider_search.tags')
 		await pool.end()
 		resolve( res )
-	);
+	})
   }
 ///////////////END DB QUERY////////////////////////
 resp = getDocIdFromTag("testTag", function(res){var resp = res}) 
