@@ -36,7 +36,7 @@ app.post('/myaction', function(req, res) {
 		    console.log(response.rows[0].doc_id)
 	
 		res.render(__dirname + '/../html/displaySearch.html',{name:name});
-		}
+		})
   	console.log(name + ' said Hi');
 });
 
