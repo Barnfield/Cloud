@@ -15,7 +15,8 @@ const pool = new pg.Pool()
 	//Insert function here
 function getDocIdFromTag(tag){
 	return new Promise(async function(resolve,reject){
-		const results = await pool.query('SELECT * FROM schneider_search.tags')
+		console.log(tag)
+		const results = await pool.query('SELECT * FROM schneider_search.tags WHERE tag=$1',[tag])
 		console.log(results)
 		await pool.end()
 // 		if(len(results.rows) > 0){
