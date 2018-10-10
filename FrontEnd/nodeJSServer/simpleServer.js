@@ -17,7 +17,11 @@ function getDocIdFromTag(tag){
 	return new Promise(async function(resolve,reject){
 		const results = await pool.query('SELECT * FROM schneider_search.tags')
 		await pool.end()
-		resolve( results )
+		if(len(results.rows) > 0){
+			resolve( results )
+		}else{
+			reject("No files found for: ")
+		}
 	})
 }
 ///////////////END DB QUERY////////////////////////
@@ -36,6 +40,10 @@ app.post('/myaction', function(req, res) {
 		.then(function whenOk(response) {
 		    console.log(response.rows[0].doc_id)
 			name = name +"_ID = " +  response.rows[0].doc_id
+			gRes.render(__dirname + '/../html/displaySearch.html',{name:name});
+		})
+		.catch(function notOk(response){
+			name = response + name
 			gRes.render(__dirname + '/../html/displaySearch.html',{name:name});
 		})
   	console.log(name + ' said Hi');
