@@ -19,11 +19,11 @@ function getDocIdFromTag(tag){
 		const results = await pool.query('SELECT * FROM schneider_search.tags WHERE tag=$1',[tag])
 		console.log(results)
 		await pool.end()
-// 		if(len(results.rows) > 0){
+		if(results.rowCount > 0){
 			resolve( results )
-// 		}else{
-// 			reject("No files found for: ")
-// 		}
+		}else{
+			reject("No files found for: ")
+		}
 	})
 }
 ///////////////END DB QUERY////////////////////////
