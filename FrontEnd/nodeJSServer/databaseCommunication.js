@@ -41,5 +41,5 @@ const pool = new pg.Pool()
   }
 ///////////////END DB QUERY////////////////////////
 var resp = getDocIdFromTag("testTag")
-console.log(resp.rows[0])
+console.log(resp)
 
