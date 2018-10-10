@@ -13,14 +13,13 @@ const pool = new pg.Pool()
 
 ///////////////DB QUERY////////////////////////////
 	//Insert function here
-	function search( searchQuery){
-		client.connect();		
-		client.query('select doc_id from schneider_search.tags where tag= $1',[searchQuery], (err,res) => {
-			console.log("SEARCHFUNC: ");
-			console.log(err ? err.stack : res.row[0].doc_id)
-			console.log("SEARCHFUNCEND");
-		});
-	}
+function getDocIdFromTag(tag){
+	return new Promise(async function(resolve,reject){
+		const res = await pool.query('SELECT * FROM schneider_search.tags')
+		await pool.end()
+		resolve( res )
+	})
+}
 ///////////////END DB QUERY////////////////////////
 
 ////////////////WebServer config///////////////////
@@ -31,19 +30,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/myaction', function(req, res) {
 	var name = req.body.firstname;
-	var results = ""
-	results = pool.query('SELECT * FROM schneider_search.tags', (err,res) =>{
-		if (err) {
-      		console.log(err.stack)
-    	} else {
-      		console.log(res.rows[0])
-    	}
-		return res
-		pool.end()
-	})
-	console.log("Out")
-	console.log(results);
-	res.render(__dirname + '/../html/displaySearch.html',{name:name});
+	const resp = getDocIdFromTag(name) 
+	resp
+		.then(function whenOk(response, res) {
+		    console.log(response.rows[0].doc_id)
+	
+		res.render(__dirname + '/../html/displaySearch.html',{name:name});
+		}
   	console.log(name + ' said Hi');
 });
 
