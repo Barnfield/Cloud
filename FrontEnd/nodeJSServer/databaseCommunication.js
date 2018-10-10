@@ -41,6 +41,7 @@ const pool = new pg.Pool()
 	})
   }
 ///////////////END DB QUERY////////////////////////
-resp = getDocIdFromTag("testTag", function(res){var resp = res}) 
-console.log(resp)
+const resp = getDocIdFromTag("testTag") 
+resp
+	.then(console.log(resp))
 
