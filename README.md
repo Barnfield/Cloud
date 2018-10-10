@@ -81,6 +81,7 @@
 			source <PATH>/CreateDBandTable.sql
 	1. In order to interact with the database safely with a program, Cockroach offers **ORM**'s or **Driver**'s e.g.
 		1. [NodeJS](https://www.cockroachlabs.com/docs/stable/build-a-nodejs-app-with-cockroachdb-sequelize.html)
+			1. [READ THIS 1st](https://medium.freecodecamp.org/javascript-from-callbacks-to-async-await-1cc090ddad99)
 		1. [Python](https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb.html)
 		1. [Rust](https://www.cockroachlabs.com/docs/stable/build-a-rust-app-with-cockroachdb.html)
 		1. [More/Others](https://www.cockroachlabs.com/docs/stable/build-an-app-with-cockroachdb.html)
