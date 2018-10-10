@@ -35,7 +35,7 @@ app.post('/myaction', function(req, res) {
 	resp
 		.then(function whenOk(response) {
 		    console.log(response.rows[0].doc_id)
-	
+			name = name +"_ID = " +  response.rows[0].doc_id
 			gRes.render(__dirname + '/../html/displaySearch.html',{name:name});
 		})
   	console.log(name + ' said Hi');
