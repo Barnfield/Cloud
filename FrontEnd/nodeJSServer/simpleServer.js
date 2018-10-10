@@ -8,14 +8,14 @@ const pg = require('pg')
 const client = new pg.Client();
 
 
-const pool = new pg.Pool()
+// const pool = new pg.Pool()
 
 
 ///////////////DB QUERY////////////////////////////
 	//Insert function here
 function getDocIdFromTag(tag){
 	return new Promise(async function(resolve,reject){
-		pool.connect()
+		const pool = new pg.Pool()
 		const results = await pool.query('SELECT * FROM schneider_search.tags WHERE tag=$1',[tag])
 		console.log(results)
 		await pool.end()
