@@ -43,5 +43,8 @@ const pool = new pg.Pool()
 ///////////////END DB QUERY////////////////////////
 const resp = getDocIdFromTag("testTag") 
 resp
-	.then(console.log(resp))
+	.then(function whenOk(response) {
+	    console.log(response)
+	    return response
+	  }))
 
