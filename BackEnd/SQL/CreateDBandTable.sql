@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS Schneider_search
+CREATE DATABASE IF NOT EXISTS Schneider_search;
 -- auto_increment does not exist (yet) as it is expensive in distributed systems
 -- UNSIGNED is not included (should be implimente by program writing to DB)
 CREATE  TABLE IF NOT EXISTS Schneider_search.document (
@@ -14,7 +14,7 @@ CREATE  TABLE IF NOT EXISTS Schneider_search.time_spent (
   doc_id INT NOT NULL ,
   start_time TIME,
   end_time TIME,
-  FOREIGN KEY (doc_id) REFERENCES document(id),
+  FOREIGN KEY (doc_id) REFERENCES Schneider_search.document(id),
   PRIMARY KEY (id) );
 
 CREATE  TABLE IF NOT EXISTS Schneider_search.tags (
@@ -22,5 +22,5 @@ CREATE  TABLE IF NOT EXISTS Schneider_search.tags (
   doc_id INT NOT NULL ,
   tag TEXT NOT NULL ,
   num_of_occur INT NOT NULL  ,
-  FOREIGN KEY (doc_id) REFERENCES document(id),
+  FOREIGN KEY (doc_id) REFERENCES Schneider_search.document(id),
   PRIMARY KEY (id) );
