@@ -17,7 +17,7 @@ function getDocIdFromTag(tag){
 	return new Promise(async function(resolve,reject){
 		const pool = new pg.Pool()
 		//const results = await pool.query('SELECT * FROM schneider_search.tags WHERE tag=$1',[tag])
-		const results = await pool.query('select file_path from schneider_search.document INNER JOIN tags ON schneider_search.document.id=schneider_search.tags.doc_id where tag=$1',[tag])
+		const results = await pool.query('select file_path from schneider_search.document INNER JOIN schneider_search.tags ON schneider_search.document.id=schneider_search.tags.doc_id where tag=$1',[tag])
 		console.log(results)
 		await pool.end()
 		if(results.rowCount > 0){
