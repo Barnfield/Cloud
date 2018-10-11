@@ -21,5 +21,6 @@ CREATE  TABLE IF NOT EXISTS Schneider_search.tags (
   id INT NOT NULL  ,
   doc_id INT NOT NULL ,
   tag TEXT NOT NULL ,
+  num_of_occur INT NOT NULL  ,
   FOREIGN KEY (doc_id) REFERENCES document(id),
   PRIMARY KEY (id) );
