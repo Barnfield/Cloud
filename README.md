@@ -90,6 +90,8 @@
 	1. Write
 	1. Inspect
 	1. Query
+		1. All of the above tasks are easily acheivable either with the **ORM's**, **Drivers** or **SQL console**
+		1. If using the ORM's or Drivers ensure that you are using asyncronous functions, otherwise you will likely not get any useful information returned from a **Query**/**Read**. This should __NOT impact__ **Writing** to the database (and has not impacted me during my experiments with and without async, however to be safe I recomend using async)
 1. Extras:
 	1. To monitor the cluster you can access the Admin-UI by going to (change localhost to address if needed):
 	
