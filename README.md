@@ -150,6 +150,7 @@
 - Further tmux help
 	- https://tmuxcheatsheet.com/
 	- https://gist.github.com/MohamedAlaa/2961058
+	- https://gist.github.com/henrik/1967800
 	
 ## <a name="editors"></a>Editors
 ### <a name="vim"></a>VIM
